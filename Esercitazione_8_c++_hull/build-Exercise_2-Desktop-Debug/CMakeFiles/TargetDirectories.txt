@@ -1,0 +1,5 @@
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_8_c++_hull/build-Exercise_2-Desktop-Debug/CMakeFiles/convexHull.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_8_c++_hull/build-Exercise_2-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_8_c++_hull/build-Exercise_2-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_8_c++_hull/build-Exercise_2-Desktop-Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_8_c++_hull/build-Exercise_2-Desktop-Debug/src/CMakeFiles/rebuild_cache.dir

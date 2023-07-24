@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "linearSystem1Solution",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "linearSystem1Solution::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linearSystem1Solution-Debug-999a1c6d50acd9a37a9e.json",
+					"name" : "linearSystem1Solution",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_3_c++_avanzato/Exercise_1/build-Solution-Desktop-Debug",
+		"source" : "C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_3_c++_avanzato/Exercise_1/Solution"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,8 @@
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/CMakeFiles/delaunay_test.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/CMakeFiles/delaunay_program.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/test/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/build-Delaunay-Desktop-Debug/test/CMakeFiles/rebuild_cache.dir

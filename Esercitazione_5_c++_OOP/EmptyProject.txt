@@ -1,0 +1,137 @@
+#include "iostream"
+#include "fstream"
+#include "sstream"
+#include "Eigen/Eigen"
+#include "deque"
+
+using namespace std;
+using namespace Eigen;
+
+class Base{
+  public:
+    int var3;
+    Base() = default; // default constructor
+    Base(int var1): var1(var1){ // overloading of constructor
+    };
+    static int stat_var;
+    void pub_mem(){ stat_var++; };
+  private:
+    void priv_mem();
+  protected:
+    int var1;
+    void prot_mem();
+};
+
+int Base::stat_var = 0;
+
+class Pub_der: public Base
+{
+  private:
+    int var2;
+  public:
+    Pub_der() = default;
+    Pub_der(int var2, int var1): Base(var1), var2(var2){}; // this constructor calls the constructor of Base class
+    void foo()
+    {
+      prot_mem();
+      pub_mem();
+//      priv_mem(); // error: priv_mem is a private method of Base class
+    }
+};
+
+class Priv_der: private Base
+{
+  public:
+    void foo()
+    {
+      prot_mem();
+      pub_mem();
+//      priv_mem(); // error: priv_mem is a private method of Base class
+    }
+};
+
+class Proc_der: protected Base
+{
+  public:
+    void foo()
+    {
+      prot_mem();
+      pub_mem();
+//      priv_mem(); // error: priv_mem is a private method of Base class
+    }
+};
+
+class Pub_pub_der: public Pub_der
+{
+  void foo()
+  {
+    prot_mem();
+    pub_mem();
+//    priv_mem(); // error: priv_mem is a private method of Base class
+  }
+};
+
+class Priv_priv_der: public Priv_der
+{
+  public:
+    static int stat_var; // This is a new variable: Priv_priv_der does not see the stat_var data of the Base class
+
+  void foo()
+  {
+//    prot_mem(); // error: prot_mem is a private method of Base class
+//    pub_mem(); // error: pub_mem is a private method of Base class
+//    priv_mem(); // error: priv_mem is a private method of Base class
+  }
+};
+
+class Proc_proc_der: public Proc_der
+{
+  void foo()
+  {
+    prot_mem();
+    pub_mem();
+//    priv_mem(); // error: priv_mem is a private method of Base class
+  }
+};
+
+enum EnumStandard{
+  A,
+  B
+};
+
+enum class EnumClass{
+  A,
+  B
+};
+
+class Car{};
+//class Car{}; // error: redefinition of Car class
+
+int Priv_priv_der::stat_var = 3;
+
+int main()
+{
+
+  Pub_der pub_der; // call to default constructor
+  Pub_pub_der pub_pub_der;
+
+  Base base1(pub_der); // pub_der can be used to initialize an istance of Base class
+  Base base2(pub_pub_der); // pub_pub_der can be used to initialize an istance of Base class
+
+  Priv_der priv_der;
+//  Base base3(priv_der); // error: priv_der cannot be used to initialize an istance of Base class
+
+  Proc_der proc_der;
+//  Base base4(proc_der); // error: proc_der cannot be used here to initialize an istance of Base class
+
+  pub_der.pub_mem();
+
+  Priv_priv_der::stat_var++;
+
+  cout << Pub_pub_der::stat_var << endl;
+  cout << Priv_priv_der::stat_var << endl;
+
+  const int a = EnumStandard::A;
+//  const int b = EnumClass::B; // error: not implicit cast
+
+}

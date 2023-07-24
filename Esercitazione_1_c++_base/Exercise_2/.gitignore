@@ -1,0 +1,4 @@
+# Git Ignore file
+
+## Ignore build folder
+build*

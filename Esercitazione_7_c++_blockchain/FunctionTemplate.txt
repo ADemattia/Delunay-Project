@@ -1,0 +1,90 @@
+#include "iostream"
+#include "fstream"
+#include "sstream"
+#include "Eigen/Eigen"
+#include "chrono"
+
+using namespace std;
+using namespace Eigen;
+
+class Object
+{
+  public:
+    int var;
+    Object(int var): var(var){}
+
+};
+
+bool operator==(const Object& obj1, const Object& obj2)
+{
+  return obj1.var == obj2.var;
+}
+
+template<typename T1>
+T1 foo1(const T1 & a, const T1 &b)
+{
+
+  cout << sizeof(a) << endl;
+ return a+b;
+}
+
+template<typename T1, typename T2>
+T2 foo2(const T1 & a, const int& c)
+{
+  return a * c;
+}
+
+struct Base
+{
+    virtual ~Base() {};
+    virtual void f() // Try to remove virtual
+    {
+        std::cout << "base\n";
+    }
+};
+
+struct Derived : Base
+{
+    void f() // 'override' is optional
+    {
+        std::cout << "derived\n";
+    }
+};
+
+
+int main()
+{
+  cout << sizeof(1L) << endl;
+  foo1(1, 2);
+//  foo1(1L, 2);
+  foo1<int>(1L, 2);
+  foo2<int,int>(1, 2); // you must specify template argument
+
+
+  // Esempio tratto da: https://en.cppreference.com/w/cpp/language/virtual
+
+  Base b;
+  Derived d;
+
+  b.f(); // prints "base"
+  d.f(); // prints "derived"
+
+  // virtual function call through reference
+  Base& br = b; // the type of br is Base&
+  Base& dr = d; // the type of dr is Base& as well
+  br.f(); // prints "base"
+  dr.f(); // prints "derived"
+
+  // virtual function call through pointer
+  Base* bp = &b; // the type of bp is Base*
+  Base* dp = &d; // the type of dp is Base* as well
+  bp->f(); // prints "base"
+  dp->f(); // prints "derived"
+
+  // non-virtual function call
+  br.Base::f(); // prints "base"
+  dr.Base::f(); // prints "base"
+
+}
+
+

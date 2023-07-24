@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="26" NumberOfCells="34">
+      <PointData>
+      </PointData>
+      <CellData Scalars="Id">
+        <DataArray type="Float64" Name="Id" format="binary" RangeMin="0" RangeMax="33">
+          AQAAAACAAAAQAQAAVgAAAA==eJxNxjEOgkAAAMErLSksKCiIIYQYYwARUFDuaT6ZJ1jcFGwzG8KxfTMxcWLGM3MWLHlhxZoNr7zxzpYdez448MmRE2e++ObClR9+uTEmfzH+AUe4D0A=
+        </DataArray>
+        <DataArray type="Float64" Name="Marker" format="binary" RangeMin="0" RangeMax="0">
+          AQAAAACAAAAQAQAADQAAAA==eJxjYBgFyAAAARAAAQ==
+        </DataArray>
+      </CellData>
+      <Points>
+        <DataArray type="Float32" Name="Points" NumberOfComponents="3" format="binary" RangeMin="0" RangeMax="1.4142135623730951">
+          AQAAAACAAAA4AQAAVQAAAA==eJxdT4ERACEIcoSfSB3NURql0f4tLXjuuoCwSAQRxvyvF6yWgBb2wtjvWU+uldGt23fMQ2YWH9/+4Bt6Z6kz+nBn5/Ic/3V84z4B+UZ28KVfeMkYGw==
+          <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+            <Value index="0">
+              0
+            </Value>
+            <Value index="1">
+              1.4142135624
+            </Value>
+          </InformationKey>
+        </DataArray>
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="binary" RangeMin="0" RangeMax="25">
+          AQAAAACAAAAwAwAAoQAAAA==eJx1kkkSgkAQBF0GUETRARH//1EOVF4ygrlkUL13U0/7e4Ql/IdtOIRTeAv7sAmf4Ut5BtnJe5e9SK+qS5/U/4Sd4t7hWfpX/dL/HF6l/1SP+kt4kc58R/MU2XlrOIbsj3zETbKjN9Lpn7rsm72Ql7hR/uzN+2XOKv9OepG/++a7F9nzLJ27cD/yUneRzl24H/PxPzL/Kh2/Vjp+G3OhBN0=
+        </DataArray>
+        <DataArray type="Int64" Name="offsets" format="binary" RangeMin="3" RangeMax="102">
+          AQAAAACAAAAQAQAAUgAAAA==eJwtxdEGgwAAAMCIGBExxhgRETEiIsaIiIgYETH6/0/oobuXC4NL5JtjJ05998NPv5w5d+HSld+u3bh154+/7j149OTZi39evXn334dPno4G+g==
+        </DataArray>
+        <DataArray type="UInt8" Name="types" format="binary" RangeMin="5" RangeMax="5">
+          AQAAAACAAAAiAAAACwAAAA==eJxjZSUEAAvBAKs=
+        </DataArray>
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+</VTKFile>

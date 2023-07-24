@@ -1,0 +1,1 @@
+-I"C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/Delaunay/src" -I"C:/Users/aless/Desktop/PCS2023_Exercises-main/Projects/Delaunay/test" -isystem "C:/Users/aless/Desktop/PCS2023_Exercises-main/Externals/Main_Install/eigen3/include/eigen3" -isystem "C:/Users/aless/Desktop/PCS2023_Exercises-main/Externals/Main_Install/googletest/include"

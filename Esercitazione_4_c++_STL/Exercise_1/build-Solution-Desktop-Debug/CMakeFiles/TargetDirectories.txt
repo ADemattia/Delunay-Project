@@ -1,0 +1,3 @@
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_4_c++_STL/Exercise_1/build-Solution-Desktop-Debug/CMakeFiles/triangularMeshSolution.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_4_c++_STL/Exercise_1/build-Solution-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_4_c++_STL/Exercise_1/build-Solution-Desktop-Debug/CMakeFiles/rebuild_cache.dir

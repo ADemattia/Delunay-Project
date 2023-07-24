@@ -1,0 +1,2 @@
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_5_c++_OOP/Exercise_2/build-src-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_5_c++_OOP/Exercise_2/build-src-Desktop-Debug/CMakeFiles/rebuild_cache.dir

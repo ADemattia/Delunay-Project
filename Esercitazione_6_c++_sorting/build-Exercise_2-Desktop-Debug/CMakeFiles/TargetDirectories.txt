@@ -1,0 +1,5 @@
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/build-Exercise_2-Desktop-Debug/CMakeFiles/heapsort.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/build-Exercise_2-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/build-Exercise_2-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/build-Exercise_2-Desktop-Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/build-Exercise_2-Desktop-Debug/src/CMakeFiles/rebuild_cache.dir

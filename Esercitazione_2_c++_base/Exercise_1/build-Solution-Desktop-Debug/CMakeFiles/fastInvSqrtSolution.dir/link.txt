@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\fastInvSqrtSolution.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\fastInvSqrtSolution.dir/objects.a @CMakeFiles\fastInvSqrtSolution.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -Wa,-mbig-obj -g -Wall -Wextra -pedantic-errors -Wl,--whole-archive CMakeFiles\fastInvSqrtSolution.dir/objects.a -Wl,--no-whole-archive -o fastInvSqrtSolution.exe -Wl,--out-implib,libfastInvSqrtSolution.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fastInvSqrtSolution.dir\linklibs.rsp

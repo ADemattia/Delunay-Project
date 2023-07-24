@@ -1,0 +1,5 @@
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/Exercise_1/build-Solution-Desktop-Debug/CMakeFiles/pagerankSolution.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/Exercise_1/build-Solution-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/Exercise_1/build-Solution-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/Exercise_1/build-Solution-Desktop-Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/aless/Desktop/PCS2023_Exercises-main/Esercitazione_6_c++_sorting/Exercise_1/build-Solution-Desktop-Debug/src/CMakeFiles/rebuild_cache.dir
